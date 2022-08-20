@@ -1,20 +1,15 @@
 import signal
-import sys
 import cursor
 import button as btn
 import joystick as jst
 import os
 os.environ['PYGAME_HIDE_SUPPORT_PROMPT'] = "hide"
 import pygame
-import keyboard
-
-
 
 pygame.init()
 joysticks = []
-alive = True
-UP = "\x1B[21A" #moves up 5 times
-CLR = "\x1B[0K"
+UP = "\x1B[21A" # Moves up 21 times for \r
+CLR = "\x1B[0K" # Clears
 UP_REDO = "\x1B[2A"
 
 def signal_handler(sig, frame):
@@ -158,13 +153,9 @@ class Controller:
             joysticks.append(pygame.joystick.Joystick(i))
             # initialize them all (-1 means loop forever)
             joysticks[-1].init()
-            # print a statement telling what the name of the controller is
             self.joystick = jst.Joystick()
             self.keep_rt = True
-
-
-
-    
+            
     def __str__(self):
         buttons_str = ""
         for i in range(0,jst.N_BUTTONS):

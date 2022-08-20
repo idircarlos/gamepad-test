@@ -1,6 +1,5 @@
-from hashlib import new
-
-
+# Buttons constants
+N_BUTTONS = 18
 BT_A = 0
 BT_B = 1
 BT_X = 2
@@ -26,6 +25,7 @@ class Button:
         self.id = id
         self.pressed = False
         self.value = -1.00
+        # If is a joystick, then creates a pair of coords
         if (id == BT_JL or id == BT_JR):
             self.coords = [0,0]
     
