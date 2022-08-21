@@ -24,7 +24,6 @@ def create_underline(len):
         res = res + "-"
     return res
     
-
 class Controller:
     
     def printf_coords(self,joy):
@@ -173,6 +172,3 @@ class Controller:
             buttons_str = buttons_str + str(self.gamepad.get_button(i)) + " " + str(button.pressed) + "\n"
         return buttons_str
     
-    
-    
-
