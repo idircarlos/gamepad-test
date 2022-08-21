@@ -1,6 +1,6 @@
 
-# xbox-controller-tool
-A real time input test for your gamepad.
+# gamepad-test
+A real time console input test for your gamepad.
 
 ## Install requirements
 To install all the requierements you need to execute this command line:
