@@ -23,5 +23,5 @@ Otherwise the message is:
 There is a help panel. You can display it by executing this command line:
 >python3 gamepadtest.py -h
 
-The program supports USB and Wireless connections.
-Note: The program can scan any kind of gamepad like Dualshock 4, but the buttons names are from Xbox 
+The program supports USB and Wireless connections.  
+**Note:** The program can scan any kind of gamepad like Dualshock 4, but the buttons names are from Xbox 
