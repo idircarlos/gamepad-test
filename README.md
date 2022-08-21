@@ -11,7 +11,7 @@ You can check the state of the buttons, triggers and joysticks with a real time 
 >python3 gamepadtest.py
 
 ## Test to scan for gamepads
-If you only want to test if there is any gamepad connected to your PC, then run the following command
+If you only want to test if there is any gamepad connected to your PC, then run the following command line:
 > python3 gamepadtest.py -t
 
 If the program has detected any controller will display a message like this:
@@ -24,4 +24,4 @@ There is a help panel. You can display it by executing this command line:
 >python3 gamepadtest.py -h
 
 The program supports USB and Wireless connections.  
-**Note:** The program can scan any kind of gamepad like Dualshock 4, but the buttons names are from Xbox 
+**Note:** The program can scan any kind of gamepad like Dualshock 4, but the buttons names are from Xbox.
